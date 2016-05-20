@@ -1,0 +1,36 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Add a Product</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class = "container">
+	<form action = "/add_product" method="post">
+		  <div class="form-group">
+		    <label for="name_of_product">Name</label>
+		    <input type="text" name = "product_name" class="form-control" id="name_of_product" placeholder="Name">
+		  </div>
+		  <div class="form-group">
+		    <label for="description">Password</label>
+		    <input type="text" name = "product_description" class="form-control" id="description" placeholder="Description">
+		  </div>
+		  <div class="form-group">
+		    <label for="product_price">Price</label>
+		    <input type="number" name = "price" class="form-control" id="product_price" placeholder="Price">
+		  </div>
+		  <input class="btn btn-default" type="submit" value="Submit">
+	</form>
+	
+</div>
+	
+</body>
+</html>
